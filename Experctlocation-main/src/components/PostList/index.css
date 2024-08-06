@@ -1,0 +1,26 @@
+.posts-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+  }
+  
+  .post-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+  .post-card p {
+    margin: 0;
+  }

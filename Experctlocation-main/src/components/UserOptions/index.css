@@ -1,0 +1,51 @@
+.user-post-container{   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.user-option-buttons{
+    margin-left: 40%;
+}
+.user-post-button{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.user-post-button:hover{
+    background-color: green;
+}
+.options-container{
+    margin-left: 50px;
+}
+.add-new-connections{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 180px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+.add-new-connections:hover{
+ background-color: green;
+}

@@ -1,0 +1,44 @@
+
+.post-container{
+    box-sizing: border-box;
+    width: 60vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    margin-left: 20%;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    margin-inline-start: 60px;
+    padding-right: 30px;
+}
+.submit-post{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.file{
+    border: 0px;
+}
+.submit-post:hover{
+    background-color: green;
+}

@@ -1,0 +1,48 @@
+/* TutorDetails.css */
+.tutor-details-container {
+    display: flex;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 80px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  
+  .profile-pic-container {
+    width: 150px;
+    margin-right: 40px;
+  }
+  
+  .profile-pic-container img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .details-container {
+    flex-grow: 1;
+  }
+  
+  .username {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .about {
+    font-style: italic;
+    margin-bottom: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .contact-details,
+  .additional-details {
+    margin-bottom: 15px;
+  }
+  
+  .additional-details p {
+    margin: 5px 0;
+  }
+  

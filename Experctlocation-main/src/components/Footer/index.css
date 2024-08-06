@@ -1,0 +1,33 @@
+/* Footer.css */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: #fff;
+  }
+  
+  .contact {
+    max-width: 300px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #3498db;
+  }
+  
